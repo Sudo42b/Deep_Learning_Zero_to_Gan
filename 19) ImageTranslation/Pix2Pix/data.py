@@ -13,3 +13,5 @@ def get_test_set(root_dir):
     test_dir = join(root_dir, "test")
 
     return DatasetFromFolder(test_dir)
+
+
